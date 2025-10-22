@@ -17,7 +17,7 @@
 
 ## 🚀 Cách chạy
 ```bash
-git clone https://github.com/<username>/edumarket.git
-cd edumarket
+git clone https://github.com/NguyenLong775/EduMarketApp.git
+cd EduMarketApp
 flutter pub get
 flutter run
