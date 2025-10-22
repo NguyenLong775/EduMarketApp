@@ -1,16 +1,23 @@
-# edu_market_app
+# 🎓 EduMarket - Mini Education Marketplace App
 
-A new Flutter project.
+Ứng dụng mô phỏng sàn giáo dục: giáo viên đăng khóa học, học viên mua và chat trực tiếp.
 
-## Getting Started
+## 🧱 Kiến trúc
+Áp dụng Clean Architecture + Flutter BLoC:
+- **data**: Chứa models, datasource, repository implementation
+- **domain**: Chứa entities, repositories abstract, usecases
+- **presentation**: Giao diện, Bloc và màn hình
+- **main.dart**: Entry point
 
-This project is a starting point for a Flutter application.
+## 👤 Tài khoản mẫu
+| Vai trò | Email | Mật khẩu |
+|----------|--------|-----------|
+| Giáo viên | teacher@edu.com | 123456 |
+| Học viên | student@edu.com | 123456 |
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Cách chạy
+```bash
+git clone https://github.com/<username>/edumarket.git
+cd edumarket
+flutter pub get
+flutter run
